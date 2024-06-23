@@ -1,0 +1,243 @@
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>Portfolio</title>  
+    <link rel="stylesheet" href="style.css">  
+    <script src="https://kit.fontawesome.com/718e1f6b87.js" crossorigin="anonymous"></script>
+</head>  
+<body>  
+    
+    <div id="header">  
+        <div class="container">  
+            <nav>  
+                <img src="logo.png-Photoroom.png" class="logo"  width="200" height="100">  
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Works</a></li>
+                    <li><a href="#portfolio">Researches</a></li>
+                    <li><a href="#portfolio">Publications</a></li>
+                    <li><a href="#portfolio">Conferences</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>  
+            <div class="header-text">
+                <h2>  
+                     <span>Dr. Abhineet Verma</span><br>"Exploring the Wonders of Chemistry <br>Through Researches and Innovation"</h2>
+            </div>
+        </div>  
+    </div> 
+
+    <!---------------------about-------------------------->
+    <div id="about"></div>
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="WhatsApp Image 2024-06-15 at 10.35.13 PM.jpeg">
+            </div>
+                <div class="about-col-2">
+                  <h1 class="sub-title">About Me</h1>
+                  <h3 style="color:black;">Dr. Abhineet Verma</h3>
+                  
+                  <p>"Dr. Abhineet Verma is a highly successful academician with a strong history in undergraduate
+                     and graduate studies, as well as a Ph.D. from Banaras Hindu University (BHU) Varanasi.
+                      His doctorate thesis, "Towards Modulation of NIR Emission: Design, Synthesis, Structural,
+                       and Photophysical Studies of Lanthanide Complexes," demonstrates his proficiency in the 
+                       complex fields of lanthanide chemistry and near-infrared emission and emission.
+                        Dr. Verma is currently involved in research and academia as an Assistant Professor
+                         in the Department of Chemistry at MNIT Jaipur. He is also the editorial board member 
+                         of ‘American Journal of Applied Science’. His work exemplifies a dedication to excellence
+                         in education and scientific endeavours, as he exhibits a steadfast commitment to expanding
+                          our understanding of near-infrared emission."</p>
+                
+               <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('Skills')" >Skills</p>
+                <p class="tab-links" onclick="opentab('Experience')" >Experience</p>
+                <p class="tab-links" onclick="opentab('Education')" >Education</p>
+               </div>
+
+               <div class="tab-contents active-tab" id="Skills">
+                <ul>
+                    <li><span>Teaching</span><br>Worked as Teacher for UG and PG students in many reputated colleges such as 
+                    <a href="https://www.bhu.ac.in/Site/Home/1_2_16_Main-Site" style="color: white">Banaras Hindu University,Varanasi </a> and <a href="https://admission.nimsuniversity.org/?source=google&medium=cpc&campaignid=12850702279&adgroupid=141939102224&keyword=nims%20university%20jaipur&matchtype=p&device=c&gad_source=1&gclid=Cj0KCQjwj9-zBhDyARIsAERjds2qnVFi83XC0FsK5y0k9kfx0mUxCCOETblfAhDXDR5AMgm9iINvNzkaAvH3EALw_wcB" style="color: white">NIMS University,Jaipur</a></li>
+                    <li><span>Computing skills</span><br>Have a good knowledge M.S. Office  </li>
+                    <li><span>Programming languages</span><br>  HTML, JAVA, C+, FORTRAN, DFT,TD-DFT</li>
+                    <li><span>Spectroscopy</span><br> UV-Visible (also Reflectance) and fluorescence spectroscopy (solid and solution).</li>
+                    
+                </ul>
+               </div>
+
+               <div class="tab-contents" id="Experience">
+                <ul>
+                    <li><span>July 2023 - Current </span><br>Assistant Professor: <br>NIMS University, Jaipur </li>
+                    <li><span>28 Nov 2017 - 15 Nov 2018</span><br>Project Assistant DST <br>“Exploring Transition Metal Complexes as Molecular Nano Magnets" </li>
+                    <li><span>2015 (Nov.) - (June) 2016</span><br>M. Sc. Project work (BHU) <br>Probing the Heterogeneity of Ionic Liquids in Solution Through PhenolWater Phase Behavior</li>
+                </ul>
+               </div>
+
+               <div class="tab-contents" id="Education">
+                <ul>
+                    <li><span>2019 - 2022</span><br>PhD scholar at Banaras Hindu University, Varanasi</li>
+                    <li><span>2014-2016 </span><br>Student of M.Sc at Banaras Hindu University, Varanasi</li>
+                    <li><span>2011-2014 </span><br>Student of B.Sc at Banaras Hindu University, Varanasi</li>
+                    <li><span>2011</span><br> Completed Schooling till 12th from St. Mary's Orthodox School,Kanpur</li>
+                </ul>
+               </div>
+
+
+            </div>
+        </div>
+     </div>
+  </div>  
+
+  <!-- ---------------------Works-------------------------- -->
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">Works</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-chalkboard-user"></i>
+                <h2>Teaching</h2>
+                <h4>" Deep understanding of the subject such as Inorganic Chemistry , Physical Chemistry: Spectroscopy (Fluorescence, Raman and Lifetime)."</h4>
+                    <!-- <a href="#">Learn More</a> -->
+            </div>
+
+            <div>
+                <i class="fa-brands fa-researchgate"></i>
+                <h2>Researches</h2>
+                <h4>"Systematic investigation to discover, interpret, and analyze information on Various Chemistry Oriented Domains and Fields"</h4>
+                    <!-- <a href="#">Learn More</a> -->
+            </div>
+
+            <div>
+                <i class="fa-solid fa-atom"></i>
+                <h2>Chemical Studies</h2>
+                <h4>"Involved in many Chemistry-oriented works such as Spectroscopy , Quantum Yield , Fluorescence and lifetime studies , Raman Spectroscopy etc.</h4>
+                    <!-- <a href="#">Learn More</a> -->
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!-- ---------------------Researches-------------------------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">Researches</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="write-4491416_1280.png">
+                <div class="layer">
+                    <h3>College Notes Website</h3>
+                    <p>This website containes notes for each and every college courses
+                         available for all the years</p>
+                         <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="frankfurt-7092736_1280.png">
+                <div class="layer">
+                    <h3>Image Reconstruction</h3>
+                    <p>This AI model contains algorithm which reconstruct images to
+                        increase its clearity.
+                    </p>
+                         <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="newspaper-2608394_1280.png">
+                <div class="layer">
+                    <h3>Article Classifier</h3>
+                    <p>This AI - ML model classifies articles on different categories based on their contents</p>
+                         <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+
+        </div>
+
+        <a href="#" class="btn">See More</a>
+
+    </div>
+</div>
+
+
+<!-- ---------------------Contact-------------------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p> <i class="fa-solid fa-paper-plane"></i>abhineet.verma.vns@gmail.com </p>
+                <p>abhineet.chy@mnit.ac.in </p>
+                <p>abhineet.verma@icloud.com</p>
+                <p> <i class="fa-solid fa-phone"></i>+91-9549651671</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/profile.php?id=100012434053699&mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://x.com/PrinceSoni51847?t=K-LbU237TDjvhvQl_Drrrg&s=09"><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href="https://www.instagram.com/princesoni__777?igsh=MWltN2lrcnNtMXFneQ=="><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/prince-soni-97163522b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="" class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+            <form>
+               <input type="text" name="Name" placeholder="Your Name" required>
+               <input type="email" name="email" placeholder="Your Email" required>
+               <textarea name="Message" rows= "6" placeholder="Your Message"></textarea>
+               <button type="submit" class="btn btn2">Submit</button>
+            </form>
+        </div>
+    </div>
+  </div>
+  <div class="copyright">
+    <p>Copyright @PrinceSoni</p>
+  </div>
+</div>
+
+
+
+
+
+
+  <script>
+
+var tablinks = document.getElementsByClassName( "tab-links");
+var tabcontents = document.getElementsByClassName( "tab-contents");
+
+function opentab(tabname){
+      for(tablink of tablinks){
+        tablink.classList.remove("active-link")
+      }
+
+      for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab")
+      }   
+      event.currentTarget.classList.add ("active-link");
+      document.getElementById(tabname).classList.add("active-tab"); 
+}
+
+  </script>
+
+  <script>
+
+       var sidemenu = document.getElementById("sidemenu");
+
+       function openmenu (){
+        sidemenu.style.right = "0";
+       }
+
+       function closemenu (){
+        sidemenu.style.right = "-200px";
+       }
+
+  </script>
+
+</body>  
+</html>  
